@@ -35,7 +35,7 @@ public class IntegerRule : Rule {
     public func validate(_ value: String) -> Bool {
         let regex = try? NSRegularExpression(pattern: "^[0-9]+$", options: [])
         if let regex = regex {
-            let match = regex.numberOfMatches(in: value, options: [], range: NSRange(location: 0, length: value.characters.count))
+            let match = regex.numberOfMatches(in: value, options: [], range: NSRange(location: 0, length: value.count))
             return match == 1
         }
         return false

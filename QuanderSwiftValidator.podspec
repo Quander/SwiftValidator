@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "QuanderSwiftValidator"
-  s.version      = "5.1.0"
+  s.version      = "5.1.1"
   s.summary      = "A UITextField Validation library for Swift"
   s.homepage     = "https://github.com/jpotts18/SwiftValidator"
   s.homepage     = "https://github.com/Quander/SwiftValidator.git"
